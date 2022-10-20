@@ -12,19 +12,19 @@ switch (num)
 {
     case 1:
         RegexFirstName firstName = new RegexFirstName();
-        bool ValidName = firstName.validateString("Ranju");
+        bool ValidName = firstName.validateString("Arundhati");
         Console.WriteLine("{0}", (ValidName) ? "Valid" : "Invalid");
         break;
 
     case 2:
         RegexLastName lastName = new RegexLastName();
-        bool ValidName2 = lastName.validateString("Rajappa");
+        bool ValidName2 = lastName.validateString("Raina");
         Console.WriteLine("{0}", (ValidName2) ? "Valid" : "Invalid");
         break;
 
     case 3:
         RegexEmail Email = new RegexEmail();
-        bool Email1 = Email.validateString("abc.xyz@bl.co.in");
+        bool Email1 = Email.validateString("rainaarundhati16@gmail.com");
         Console.WriteLine("{0}", (Email1) ? "Valid" : "Invalid");
         break;
 }
